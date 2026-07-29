@@ -1,0 +1,1 @@
+# capybara-ia-allure-report
