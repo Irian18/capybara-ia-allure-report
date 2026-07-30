@@ -1,0 +1,13 @@
+URL atual:    about:blank
+Título:       
+Cenário:      Ordenação de produtos por nome do Menor para o Maior
+Localização:  features/specs/products.feature:39
+Tags:         @products
+
+Exceção:
+undefined local variable or method `login' for #<Object:0x00007f58bf2bd4e0>
+
+Backtrace (top 15):
+/home/runner/work/capybara-self-healing-locators/capybara-self-healing-locators/vendor/bundle/ruby/3.3.0/gems/rspec-expectations-3.13.5/lib/rspec/matchers.rb:968:in `method_missing'
+/home/runner/work/capybara-self-healing-locators/capybara-self-healing-locators/features/step_definitions/login.rb:2:in `"que acessei a página de login"'
+features/specs/products.feature:40:in `que acessei a página de login'
