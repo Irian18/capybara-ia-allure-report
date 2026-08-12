@@ -1,0 +1,21 @@
+URL atual:    https://www.saucedemo.com/
+Título:       Swag Labs
+Cenário:      Preço de Produtos
+Localização:  features/specs/products.feature:25:15
+Tags:         @products
+
+Exceção:
+Unable to find css "#usuario_identificador"
+
+Backtrace (top 15):
+/home/runner/work/capybara-self-healing-locators/capybara-self-healing-locators/vendor/bundle/ruby/3.3.0/gems/capybara-3.40.0/lib/capybara/node/finders.rb:312:in `block in synced_resolve'
+/home/runner/work/capybara-self-healing-locators/capybara-self-healing-locators/vendor/bundle/ruby/3.3.0/gems/capybara-3.40.0/lib/capybara/node/base.rb:84:in `synchronize'
+/home/runner/work/capybara-self-healing-locators/capybara-self-healing-locators/vendor/bundle/ruby/3.3.0/gems/capybara-3.40.0/lib/capybara/node/finders.rb:301:in `synced_resolve'
+/home/runner/work/capybara-self-healing-locators/capybara-self-healing-locators/vendor/bundle/ruby/3.3.0/gems/capybara-3.40.0/lib/capybara/node/finders.rb:60:in `find'
+/home/runner/work/capybara-self-healing-locators/capybara-self-healing-locators/vendor/bundle/ruby/3.3.0/gems/capybara-3.40.0/lib/capybara/session.rb:774:in `find'
+/home/runner/work/capybara-self-healing-locators/capybara-self-healing-locators/vendor/bundle/ruby/3.3.0/gems/site_prism-5.2/lib/site_prism/dsl/locators.rb:18:in `_find'
+/home/runner/work/capybara-self-healing-locators/capybara-self-healing-locators/vendor/bundle/ruby/3.3.0/gems/site_prism-5.2/lib/site_prism/dsl/methods.rb:30:in `block (2 levels) in element'
+/home/runner/work/capybara-self-healing-locators/capybara-self-healing-locators/features/pages/login/login_page.rb:16:in `logar_usuario'
+/home/runner/work/capybara-self-healing-locators/capybara-self-healing-locators/features/step_definitions/products.rb:3:in `garantir_login'
+/home/runner/work/capybara-self-healing-locators/capybara-self-healing-locators/features/step_definitions/products.rb:24:in `"o preço do produto {string} deve ser {string}"'
+features/specs/products.feature:25:17:in `o preço do produto "Sauce Labs Onesie" deve ser "$7.99"'
